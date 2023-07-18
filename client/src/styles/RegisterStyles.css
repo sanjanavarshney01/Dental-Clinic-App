@@ -1,0 +1,21 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../images/dentalbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.register-form {
+    /* border: 1px solid gray; */
+    padding: 30px;
+    background-color: white;
+    border-radius: 2%;
+}
+.text-center {
+    font-weight: bold;
+    font-size: 23px;
+}
