@@ -31,6 +31,9 @@ const HomePage = () => {
       <Row>
         {doctors && doctors.map((doctor) => <DoctorList doctor={doctor} />)}
       </Row>
+      <p style={{ fontStyle: "italic", marginTop: "45px", marginLeft: "30px" }}>
+        Please click on the cards to book your appointment
+      </p>
     </Layout>
   );
 };
